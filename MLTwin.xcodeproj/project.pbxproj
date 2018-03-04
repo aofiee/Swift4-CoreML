@@ -14,6 +14,8 @@
 		70A2FA34204BBF5A005E210B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A2FA33204BBF5A005E210B /* Assets.xcassets */; };
 		70A2FA37204BBF5A005E210B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A2FA35204BBF5A005E210B /* LaunchScreen.storyboard */; };
 		70A2FA42204BBF5A005E210B /* MLTwinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FA41204BBF5A005E210B /* MLTwinTests.swift */; };
+		70A2FA4D204BC1AB005E210B /* GenderNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FA4C204BC1AB005E210B /* GenderNet.mlmodel */; };
+		70A2FA59204BDD87005E210B /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FA58204BDD87005E210B /* AgeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		70A2FA3D204BBF5A005E210B /* MLTwinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLTwinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A2FA41204BBF5A005E210B /* MLTwinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLTwinTests.swift; sourceTree = "<group>"; };
 		70A2FA43204BBF5A005E210B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A2FA4C204BC1AB005E210B /* GenderNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderNet.mlmodel; sourceTree = "<group>"; };
+		70A2FA58204BDD87005E210B /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AgeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		70A2FA28204BBF59005E210B /* MLTwin */ = {
 			isa = PBXGroup;
 			children = (
+				70A2FA4C204BC1AB005E210B /* GenderNet.mlmodel */,
+				70A2FA58204BDD87005E210B /* AgeNet.mlmodel */,
 				70A2FA29204BBF59005E210B /* AppDelegate.swift */,
 				70A2FA2B204BBF59005E210B /* ViewController.swift */,
 				70A2FA2D204BBF5A005E210B /* Main.storyboard */,
@@ -203,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A2FA2C204BBF5A005E210B /* ViewController.swift in Sources */,
+				70A2FA59204BDD87005E210B /* AgeNet.mlmodel in Sources */,
+				70A2FA4D204BC1AB005E210B /* GenderNet.mlmodel in Sources */,
 				70A2FA2A204BBF59005E210B /* AppDelegate.swift in Sources */,
 				70A2FA32204BBF5A005E210B /* MLTwin.xcdatamodeld in Sources */,
 			);
